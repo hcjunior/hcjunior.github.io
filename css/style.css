@@ -1,0 +1,337 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    /* background: rgb(69, 253, 215); */
+    background: rgb(63, 152, 235);
+    padding: 20px 0;
+}
+
+#header-align {
+    align-items: center;
+}
+
+.tituloheader {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0.5em 0;
+    display: inline-block;
+}
+
+.caixa {
+    width: 69.7%;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: center; */
+}
+
+.face, .twitter, .pontinho, .user-img {
+    position: relative;
+    max-width: 40px;
+    filter: invert(0.8);
+}
+
+.twitter, .pontinho {
+    margin: 0 1em 3em 0;
+}
+
+.face {
+    margin: 0 1em 3em auto;
+}
+
+.container-bbusca-cadastro {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.barra-de-busca {
+    height: 2em;
+    width: 70%;
+    position: relative;
+    margin: 0 2% 0 auto;
+    /* margin-right: 5%; */
+}
+
+.container-login {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.a-login {
+    text-decoration: none;
+    color: #000000;
+}
+
+#mascara {
+    background-color: black;
+    padding: 5px 0;
+    align-items: center;
+    display: flex;
+}
+
+.caixa2 {
+    margin: 5px auto;
+    padding: 30px 0;
+    background: rgb(206, 126, 126);
+    width: 100%;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin: 0.5em 20em;
+    /* width: 70%; */
+}
+
+nav li {
+    display: inline;
+    /* margin: 0 0 0 3%; */
+    background: rgb(223, 55, 55);
+    padding: 20px 10px;
+    border-radius: 8px;
+    border: solid black;
+}
+
+#nav-selecionada {
+    background: rgb(206, 126, 126);
+}
+
+nav li:hover{
+    border: solid black 5px;
+}
+
+nav a {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* css do index */
+main {
+    /* background: rgb(105, 218, 195); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3em 0;
+}
+
+.principal {
+        /* background: rgb(105, 218, 195); */
+        padding: 1.5em 0;
+        margin: 0 auto;
+}
+
+.principal-conteudo {
+    width: 69.7%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-principal {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(26, 128, 224);
+}
+
+.logotipo-principal {
+    padding: 20px 0;
+    border-radius: 100%;
+}
+
+.paragrafo-principal {
+    width: 50%;
+    vertical-align: top;
+    padding: 20px 5px 0;
+    margin: 0 0 1em;
+}
+
+.vantagens {
+    padding: 1.5em 0;
+    width: 69.7%;
+    text-align: center;
+}
+
+.vantagens p {
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+.itens {
+    line-height: 1.5em;
+}
+
+.itens:before {
+    content: "\1F7CA";
+}
+
+/* CSS PRODUTO */
+
+.lista-produtos {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-produtos li {
+    width: 40%;
+}
+
+.caixa-produto{
+    margin: 1em;
+    border: solid black 5px;
+}
+
+.caixa-produto input {
+   width: 100%;
+   display: block;
+   margin: 1.2em auto;
+}
+
+.img-produto {
+    max-width: 100%;
+}
+
+.p-nome-produto{
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5em 0;
+    font-size: 1.25em;
+}
+
+.p-desc-produto{
+    margin: 0 0.5em 0.5em;
+    line-height: 1.2;
+}
+
+/* CSS DUVIDAS */
+
+.duvidas-content .caixa {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-duvidas {
+    width: 60%;
+}
+
+.container-duvidas2 {
+    width: 40%;
+}
+
+.container-duvidas h2, .container-duvidas2 h2 {
+    font-size: 2em;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.secao-duvidas {
+    display: flex;
+}
+
+.secao-duvidas ul {
+    width: 40%;
+    margin: 1em 2%;
+}
+
+.secao-duvidas ul li{
+    margin: 3em 0;
+}
+
+.secao-duvidas ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.secao-duvidas ul li:before {
+    content: "\1F7CA";
+}
+
+/* CSS CONTATO */
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+input{
+    height: 1.5em;
+}
+
+input, textarea {
+    border-radius: 6px;
+    border: none;
+    border: solid rgb(138, 138, 138) 2px;
+}
+
+label, fieldset {
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+#radio-whatsapp, #radio-telefone, #radio-email{
+    margin-bottom: 3px;
+}
+
+.checkbox {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.enviar {
+    height: 3em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background: black;
+    color: white;
+    font-weight: bold;
+    max-width: 150px;
+    border: none;
+}
+
+.enviar:hover {
+    background: rgb(63, 152, 235);
+    transition: 1s;
+}
+
+/* ccs FOOTER */
+
+footer {
+    /* background: rgb(69, 253, 215); */
+    background: rgb(63, 152, 235);
+    text-align: center;
+    padding: 2em 0;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.copyright{
+    color: #000000;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+footer img {
+    padding-bottom: 2em;
+}

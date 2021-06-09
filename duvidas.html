@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Projeto Trade It All!</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div id="header-align" class="caixa">
+                <h1 class="tituloheader"><img src="fotos/projetologo.png" alt="Trade It All!" width="200" height="100"></h1>
+                <img src="fotos/facebook-logo.png" class="face" alt="facebook">
+                <img src="fotos/twitter.png" class="twitter" alt="twitter">
+                <img src="fotos/more.png" class="pontinho" alt="mais">
+            </div>
+            <div class="caixa">
+                <div class="container-bbusca-cadastro">
+                    <input class="barra-de-busca" type="text" placeholder="Busque por algo">
+                </div>
+                <a class="a-login" href="">
+                    <div class="container-login">
+                        <img src="fotos/user.png" class="user-img" alt="cadastro">
+                        <p>
+                            Entre ou cadastre-se
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </header>
+        <div id="mascara">
+            <div class="caixa2">
+                <nav>
+                    <ul>
+                        <a href="index.html"><li>Home</li></a>
+                        <a href="produtos.html"><li>Produtos</li></a>
+                        <a href="anunciar.html"><li>Anunciar</li></a>
+                        <a href="duvidas.html"><li id="nav-selecionada">Duvidas Frequentes</li></a>
+                        <a href="contato.html"><li>Contato</li></a>
+                    </ul>
+                </nav>
+            </div> 
+        </div>
+        
+        <main class="duvidas-content">
+            <div class="caixa">
+                <div class="container-duvidas">
+                    <h2>Dúvidas Frequentes</h2>
+                    <section class="secao-duvidas">
+                        <ul>
+                            <li><a href="">Minhas compras e trocas são seguras?</a></li>
+                            <li><a href="">Regras de anúncio</a></li>
+                            <li><a href="">Outras dúvidas</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">COVID-19: Como continuar minhas vendas e trocas durante o lockdown?</a></li>
+                            <li><a href="">Assinatura premium</a></li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="container-duvidas2">
+                    <h2>Tire outra dúvida</h2>
+                    <form class="formulario">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="input-padrao" required placeholder="Email">        
+
+                        <label for="desc-produto">Dúvida</label>
+                        <textarea cols="70" rows="10" id="desc-produto" placeholder="Escreva aqui sua dúvida" class="input-padrao" required></textarea>
+        
+                        <input type="submit" value="Enviar" class="enviar">
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="caixa">
+                <img src="fotos/projetologo.png" width="200" height="100">
+                <p class="copyright"> &copy; Copyright Trade It All! - 2021 </p>
+            </div>
+           
+        </footer>
+    </body>
+
+
+</html>
